@@ -46,3 +46,15 @@ console.log(40 + 8 + 23 -10);
     <h1>JavaScript Fundamentals – Part 1</h1>
   </body>
 </html>
+
+
+
+
+let js = "amazing";
+console.log( 40 + 8 + 23 -10);
+
+console.log("Jonas");
+console.log(23);
+let firstName = "Jonas";
+console.log(firstName);
+
