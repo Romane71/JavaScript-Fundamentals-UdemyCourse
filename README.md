@@ -69,3 +69,19 @@ let myFirstJob = 'Programmer';
 let myCurrentJob = 'Teacher'
 console.log(myFirstJob)
 
+
+let country="France";
+let continent="Europe";
+let population="66Millions";
+
+console.log(country);
+console.log(continent);
+console.log(population)
+
+let isIsland="France"
+let language
+
+console.log(isIsland);
+console.log(population);
+console.log(country);
+console.log(language);
