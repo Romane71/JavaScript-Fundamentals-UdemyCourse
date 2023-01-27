@@ -46,3 +46,15 @@ console.log(40 + 8 + 23 -10);
     <h1>JavaScript Fundamentals – Part 1</h1>
   </body>
 </html>
+
+@Romane71 ➜ /workspaces/JavaScriptbascis (main) $ pwd
+/workspaces/JavaScriptbascis
+@Romane71 ➜ /workspaces/JavaScriptbascis (main) $ mkdir 01-Fundamentals
+@Romane71 ➜ /workspaces/JavaScriptbascis (main) $ cd 01-Fundamentals
+@Romane71 ➜ /workspaces/JavaScriptbascis/01-Fundamentals (main) $ ls
+script.js
+@Romane71 ➜ /workspaces/JavaScriptbascis/01-Fundamentals (main) $ touch index.html
+@Romane71 ➜ /workspaces/JavaScriptbascis/0
+@Romane71 ➜ /workspaces/JavaScriptbascis/0
+@Romane71 ➜ /workspaces/JavaScriptbascis/0
+@Romane71 ➜ /workspaces/JavaScriptbascis/01-Fundamentals (main) $ 
