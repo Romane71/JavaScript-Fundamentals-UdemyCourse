@@ -58,3 +58,14 @@ console.log(23);
 let firstName = "Jonas";
 console.log(firstName);
 
+console.log("Jonas");
+console.log(23);
+let firstName = "Romane";
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+let myFirstJob = 'Programmer';
+let myCurrentJob = 'Teacher'
+console.log(myFirstJob)
+
