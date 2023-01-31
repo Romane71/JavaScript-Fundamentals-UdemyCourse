@@ -1,0 +1,15 @@
+const firstName = 'Romane';
+const job = 'programmer';
+const birthYear = 1994;
+const year = 2037;
+
+const romane = "I'm " + firstName + ', a'  +  ( year - birthYear ) +  ' years old ' +  job  + '!';
+
+console.log(romane);
+
+const romaneNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(romaneNew)
+console.log(`Je m'appelle Romane...`);
+console.log('String with \n\
+multiple \n\
+lines');
