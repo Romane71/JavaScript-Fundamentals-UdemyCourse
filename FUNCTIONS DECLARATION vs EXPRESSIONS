@@ -1,0 +1,14 @@
+// function declaration
+
+function calcAge1(birthYear) {
+  const age = 2037 - birthYear;
+  return age  
+}
+const age1 = calcAge1(1994);
+
+// Function exoression
+const calcAge2 = function (birthYear){
+    return 2037 - birthYear
+}
+const age2 = calcAge2(1994);
+console.log(age1, age2);
