@@ -1,0 +1,27 @@
+// ADD ELEMENTS
+const friends = ['Romane', 'Lucy', 'Anais'];
+const newLength = friends.push('Laura');
+console.log(friends);
+console.log(newLength);
+// ADD ELEMENTS-IN FIRT POSITION
+friends.unshift('Valentin');
+console.log(friends);
+
+//REMOVE ELEMENTS
+
+friends.pop(); // last
+const popped = friends.pop();
+console.log(friends);
+
+friends.shift(); // first
+console.log(friends);
+console.log(friends.indexOf('Lucy'));
+console.log(friends.indexOf('Romane'));
+
+friends.push(23);
+console.log(friends.includes('Romane')); // return true
+console.log(friends.includes('Chris')); // return false
+
+if (friends.includes('Romane')) {
+    console.log('You have a friend called Alina')
+}
