@@ -1,0 +1,23 @@
+
+const romane = { // romane is the object 
+    firstName:  'Romane',
+    lastName: 'Van Broukhoven',
+    age: 2023 - 1994,                                       
+    job: 'teacher',
+    friends: ['Alina', 'Nikki', 'Matt']
+ }
+
+ console.log(romane);
+ console.log(romane.lastName);
+ console.log(romane['lastName']);
+ 
+ const nameKey = 'Name';
+ console.log(romane['first' + nameKey]);
+ console.log(romane['last' + nameKey ])
+
+ // console.log(romane.'last' = nameKey)
+
+const interestedIn = prompt('What do you want to know about Romane? Choose between firstName, lastName, age, job, and friends');
+console.log(romane[interestedIn]);
+if(romane[interestedIn]) {
+    console.log(romane[interestedIn]);
