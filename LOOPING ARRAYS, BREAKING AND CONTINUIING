@@ -1,0 +1,44 @@
+
+const romane = [
+    'romane',
+    'Van Broukhoven',
+    '2037 - 1994',
+    'teacher',
+    ['Chris', 'Laura', 'Alina'],
+    true
+];
+
+const types =[];
+
+for(let i = 0; i < romane.length;  i++) {
+    // reading from romane array
+console.log(romane[i], typeof romane[i]);
+
+// Filling types array
+//types[i] = typeof romane[i];
+types.push(typeof romane[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+// calculate all ages
+for(let i = 0; i < years.length; i++ ) {
+   ages.push(2037 - years[i])
+}
+console.log(ages);
+
+// continue and break
+console.log( '--- ONLY STRINGS ---')
+for(let i = 0; i < romane.length;  i++) {
+ if(typeof romane[i] !== 'string') continue;
+console.log(romane[i], typeof romane[i]);
+}
+
+
+console.log( '--- break with number ---')
+for(let i = 0; i < romane.length;  i++) {
+ if(typeof romane[i] !== 'string') continue;
+console.log(romane[i], typeof romane[i]);
+}
