@@ -1,0 +1,25 @@
+const romane = [
+    'romane',
+    'Van Broukhoven',
+    '2037 - 1994',
+    'teacher',
+    ['Chris', 'Laura', 'Alina'],
+    true
+];
+// backwards
+// 0, 1 , ..... , 4
+// 4, 3, ...... ,0
+
+for(let i = romane.length - 1; i >= 0; i--) {
+    console.log(i, romane[i]);
+}
+
+ // loops in loops
+
+for(let exercise = 1; exercise < 4; exercise++) {
+console.log('----------- Starting exercice ${exercise}');
+
+for(let rep = 1; rep < 6; rep++) {
+    console.log('Exercise ${exercise}: Lifting weight repetition ${rep}');
+}
+}
