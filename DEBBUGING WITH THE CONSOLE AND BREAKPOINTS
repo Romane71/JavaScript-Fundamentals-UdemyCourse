@@ -1,0 +1,23 @@
+// TO MEASURE KELVIN, ADD 273 TO THE DEGREE CELCIUS
+
+const measureKelvin = function () {
+  const measurment = {
+    type: "temp",
+    unit: "celcius",
+
+    // C: FIX
+    value: Number(prompt("Degree Celcius:")),
+  };
+
+  // B : FIND
+
+  console.log(measurment);
+  console.table(measurment);
+  // console.warn(measurment.value);
+  // console.error(measurment.value);
+  const KELVIN = measurment.value + 273;
+  return KELVIN;
+};
+// A: IDENTIFY
+
+console.log(measureKelvin());
