@@ -1,0 +1,28 @@
+// Regular functions vs arrow functions
+
+// var firstName = 'Matilda';
+const romane = {
+  firstName: 'Romane',
+  year: 1994,
+  calcAge: function () {
+    console.log(this);
+    console.log(2037 - this.year);
+
+    const self = this; // self or that
+
+    // solution 2
+    const isMillenial = function () {
+      console.log(self);
+      console.log(this);
+      console.log(self.year >= 1981 && self.year <= 1996);
+      isMillenial();
+    };
+  },
+
+  greet: function () {
+    console.log(this);
+    console.log(`Hey ${this.firstName}`);
+  },
+};
+romane.greet();
+romane.calcAge();
