@@ -1,0 +1,35 @@
+// The this keyword in practice
+
+//console.log(this);
+
+const calcAge = function (birthYear) {
+  console.log(2037 - birthYear);
+  //console.log(this);
+};
+calcAge(1994);
+
+const calcAgeArrow = birthYear => {
+  console.log(2037 - birthYear);
+  //console.log(this);
+};
+calcAgeArrow(1990);
+
+const romane = {
+  year: 1994,
+  calcAge: function () {
+    console.log(this);
+    console.log(2037 - this.year);
+  },
+};
+romane.calcAge();
+
+const matilda = {
+  year: 2017,
+};
+
+matilda.calcAge = romane.calcAge;
+matilda.calcAge();
+// result 20
+
+const f = romane.calcAge;
+f(); // undefined
